@@ -1,0 +1,14 @@
+﻿Server:
+  RunMode: debug
+  # RunMode: release
+  HttpPort: 9000
+  ReadTimeout: 60
+  WriteTimeout: 60
+General:
+  LogSavePath: storage/logs
+  LogFileName: log
+  LogFileExt: .log
+  LogMaxSize: 60
+  LogMaxAge: 7
+ReadCard:
+  URL: http://127.0.0.1:50055/INDEX.HTML
