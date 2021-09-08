@@ -11,7 +11,7 @@ import (
 // @title 对外接口服务
 // @version 1.0.0.1
 // @description 对接第三方服务接口
-// @termsOfService https://github.com/jianghuxiaoloulou/OBbjectCloudService.git
+// @termsOfService https://github.com/jianghuxiaoloulou/ExInterfaceService.git
 func main() {
 	global.Logger.Info("*******开始运行对外接口服务********")
 	gin.SetMode(global.ServerSetting.RunMode)
